@@ -1,10 +1,14 @@
-
+import Content from './components/Content';
+import Footer from './components/Footer';
+import Header from './components/Header';
 
 function App() {
 
   return (
     <>
-      <h2 className="text-red-700">Hello</h2>
+      <Header />
+      <Content />
+      <Footer />
     </>
   )
 }
