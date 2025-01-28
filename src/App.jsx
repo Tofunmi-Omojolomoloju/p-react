@@ -5,10 +5,12 @@ import Header from './components/Header';
 function App() {
    const navLinks = ['Home', 'About', 'Services', 'Contact Us']
    const title = "MY REACT PROJECT"
+    const buttonText = 'Increment'
+
   return (
     <>
     <Header links={navLinks} headerTitle={title} />
-    <Content />
+    <Content buttonText={buttonText} />
     <Footer />
     </>
   )
