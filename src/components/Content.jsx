@@ -22,7 +22,7 @@ export default class Content extends Component {
 
   render() {
     return (
-      <main className='w-[500px] h-[200px] bg-white text-black shadow-md shadow-black/40 flex flex-col gap-6 items-center justify-center text-3xl mt-36 mx-auto rounded-lg'>
+      <main className='w-[500px] h-[200px] bg-white text-black shadow-md shadow-black/40 flex flex-col gap-6 items-center justify-center text-3xl mt-36 mb-36 mx-auto rounded-lg'>
         <p>This is the footer count: {this.state.count}</p>
         <div className='flex items-center gap-5'>
 
